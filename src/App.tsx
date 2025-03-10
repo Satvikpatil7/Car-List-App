@@ -44,7 +44,7 @@ const App = () => {
         <button onClick={() => deleteCar(car.id)} className="bg-red-500 text-white px-2 py-1 rounded">Delete</button>
       </div>
     ));
-  }, [cars, deleteCar]);
+  }, [cars]);
 
   return (
     <div className="max-w-md mx-auto p-4">
